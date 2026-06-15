@@ -16,7 +16,7 @@ const productOfArray = (arr) => {
 
   // Compute the prefix and suffix products
 
-  //
+  // Multiply both for the answer
 
   for (let i = 1; i < n; i++) {
     left[i] = left[i - 1] * arr[i - 1];
